@@ -8,7 +8,7 @@
 
 ## 编译
 * 编译环境  
-archLinux 64位
+archLinux 64位  
 gcc verson 11.1.0  
 cmake version 3.21.1  
 

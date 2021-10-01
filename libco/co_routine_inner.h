@@ -30,7 +30,7 @@ struct stCoRoutine_t {
 
     stStackMem_t* stack_mem;
 
-    char* stack_sp; 
+    // char* stack_sp; 
 
     //...
 };

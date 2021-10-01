@@ -96,8 +96,8 @@ void co_swap(stCoRoutine_t* curr, stCoRoutine_t* pending_co) {
     stCoRoutineEnv_t* env = co_get_curr_thread_env();
 
     //get curr stack sp
-    char c;
-    curr->stack_sp = &c;
+    // char c;
+    // curr->stack_sp = &c;
 
     if (!pending_co->cIsShareStack) {
         env->pending_co = nullptr;
